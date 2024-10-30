@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import tv from "../assets/img/tv.png";
 import gyser from "../assets/img/gyser.png";
 import Footer from "../components/footer/Footer.jsx";
-import Chimney from "../assets/img/Chimney.png";
+import Chimney from "../assets/img/chimney.png";
 import RO from "../assets/img/R.O.png";
 import why from "../assets/images/resources/why-choose-one-img-1.jpg";
 
