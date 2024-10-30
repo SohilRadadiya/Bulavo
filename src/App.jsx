@@ -62,14 +62,14 @@ import CustomCursor from './components/CustomCursor';
 import Popup from  './components/Popup.jsx'
 // Import the Popup component
 
-const Home = lazy(() => import('./pages/Home.jsx'));
-const About = lazy(() => import('./pages/About.jsx'));
-const Blog = lazy(() => import('./pages/blog.jsx'));
+const Home = lazy(() => import('./pages/Home'));
+const About = lazy(() => import('./pages/About'));
+const Blog = lazy(() => import('./pages/blog'));
 const Services = lazy(() => import('./pages/Services'));
 const Contact = lazy(() => import('./pages/Contact'));
-const Singleservice = lazy(() => import('./pages/Singleservice.jsx'));
-const Blogs = lazy(() => import('./pages/Blogs.jsx'));
-const Patner = lazy(() => import('./pages/Patner.jsx'));
+const Singleservice = lazy(() => import('./pages/Singleservice'));
+const Blogs = lazy(() => import('./pages/Blogs'));
+const Patner = lazy(() => import('./pages/Patner'));
 
 const AppContent = () => {
   const [isLoading, setIsLoading] = useState(true);
